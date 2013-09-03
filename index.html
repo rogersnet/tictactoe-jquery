@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tic Tac Toe game using jQuery</title>
+		<script type="text/javascript" src="js/jquery-2.0.3.js"></script>
+		<script type="text/javascript" src="js/application.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/application.css" />
+ 	</head>
+ 	<body>
+ 		<div id="start">
+	 		<form id="playerInput">
+	 			<fieldset>
+	 				<legend>Enter Player names</legend>
+	 				<ol>
+	 					<li>
+			 				<input type="text" id="player1" />
+		 				</li>
+		 				<li>
+			 				<input type="text" id="player2" />
+			 			</li>	 				
+	 				</ol>
+	 			</fieldset>
+	 			<fieldset>
+	 				<button type="submit" id="next">Next</button>
+	 			</fieldset>
+	 		</form>
+ 		</div>
+ 		<div id="game">
+ 			<div id="turn">				
+ 			</div>
+ 			<div id="board">
+ 				<table>
+ 					<tr>
+ 						<td id="cell11"></td>
+ 						<td id="cell12"></td>
+ 						<td id="cell13"></td>
+ 					</tr>
+ 					<tr>
+ 						<td id="cell21"></td>
+ 						<td id="cell22"></td>
+ 						<td id="cell23"></td>
+ 					</tr>
+ 					<tr>
+ 						<td id="cell31"></td>
+ 						<td id="cell32"></td>
+ 						<td id="cell33"></td>
+ 					</tr>
+ 				</table>	
+ 			</div>
+ 			<div id="reset">
+	 			<button type="button">Restart Game</button>
+	 		</div>
+ 		</div>
+
+ 	</body>
+</html>

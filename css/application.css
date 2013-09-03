@@ -1,0 +1,156 @@
+body {
+	background: #ffffff;
+	color: #111111;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 20px;
+}
+
+li{
+	margin-bottom: 4px;
+}
+
+form#playerInput {
+	background: #9cbc2c;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 20px;
+	width: 400px;
+}
+
+form#playerInput fieldset:last-of-type {
+	margin-bottom: 0;
+}
+
+form#playerInput legend {
+	color: #384313;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-shadow: 0 1px 1px #c0d576;
+}
+
+form#playerInput input{
+	background: #ffffff;
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+	outline: none;
+	padding: 5px;
+	width: 250px;
+	margin-left: 20px;
+}
+
+form#playerInput button {
+	background: #384313;
+	border: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	color: #ffffff;
+	display: block;
+	font: 18px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+	text-transform: uppercase;
+}
+
+form#playerInput button:hover {
+	background: #1e2506;
+	cursor: pointer;
+}
+
+div#game {
+	display: none;
+	background: #9cbc2c;
+	width: 400px;
+	height: auto;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+
+
+div#turn{
+	background: #FFFF00;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	margin-left: 50px;
+	width: 300px;
+	height: 20px;
+	padding: 10px;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+}
+
+table {
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+td {
+	background: #FFFF00;
+	border: 1px solid #FFFF00;
+	width: 60px;
+	height: 60px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 10px;
+}
+
+img {
+	margin-left: 8px;
+}
+
+.toast {
+	display: none; 
+	position: fixed; 
+	z-index: 999; 
+	width: 100%;
+	text-align:	center;
+	top: 2em;
+}
+
+.toast .message {
+	display: inline-block; 
+	color: #fff  ; 
+	padding: 5px; 
+	border-radius: 5px; 
+	box-shadow: 2px 2px 2px #666  ; 
+	-webkit-box-shadow: 2px 2px 2px #666  ; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size: .8em; 
+	background: #282324  ;
+	background-image: -webkit-gradient(linear,left top,left bottom, color-stop(0, #554434  ), color-stop(1, #282324  ));
+}
+
+div#reset{
+	display: none;
+	text-align: center;
+}
+
+div#reset > button {
+	background: #384313;
+	border: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	color: #ffffff;
+	font: 18px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 1px;
+	margin-top: 8px;	
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+	text-transform: uppercase;
+}
