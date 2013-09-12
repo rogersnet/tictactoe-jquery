@@ -114,12 +114,20 @@ $(document).ready(function(){
 		}
 	});
 
-	$("td").click(function(event){
+	$("#board tr td").click(function(event){
 		event.preventDefault();
 
+		//if we have got a game winner clicking further on the cell
+		//should have no effect
 		if(gameWinner != "")
 			return;
+
 		var cell_id    = $(this).attr('id');
+
+		//clicking on a non-empty cell should have no effect as well
+		if($(this).children().length != 0)
+			return;
+
 		var cell_row   = +cell_id.substring(4,5);
 		var cell_col   = +cell_id.substring(5);
 		var prevPlayer = currentPlayer;
